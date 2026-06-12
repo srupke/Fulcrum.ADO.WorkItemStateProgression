@@ -1,6 +1,6 @@
 {
   "name": "fulcrum-work-item-state-progression",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Azure DevOps Extension for Work Item State Progression Analysis",
   "scripts": {
     "start": "webpack serve --env mock",
