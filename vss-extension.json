@@ -1,0 +1,76 @@
+{
+  "manifestVersion": 1,
+  "id": "fulcrum-work-item-state-progression",
+  "publisher": "ScottRupke",
+  "version": "1.0.0",
+  "name": "Work Item State Progression",
+  "description": "Analyze work item bottlenecks by visualizing time spent in each state per sprint and team.",
+  "public": false,
+  "categories": ["Azure Boards"],
+  "targets": [
+    {
+      "id": "Microsoft.VisualStudio.Services"
+    }
+  ],
+  "icons": {
+    "default": "images/logo.png"
+  },
+  "contributions": [
+    {
+      "id": "work-item-state-progression-hub",
+      "type": "ms.vss-web.hub",
+      "targets": ["ms.vss-work-web.work-hub-group"],
+      "properties": {
+        "name": "State Progression",
+        "order": 99,
+        "uri": "dist/hub/hub.html"
+      }
+    }
+  ],
+  "files": [
+    {
+      "path": "dist",
+      "addressable": true
+    },
+    {
+      "path": "images",
+      "addressable": true
+    },
+    {
+      "path": "overview.md",
+      "assetType": "Microsoft.VisualStudio.Services.Content.Details",
+      "addressable": true
+    },
+    {
+      "path": "LICENSE",
+      "assetType": "Microsoft.VisualStudio.Services.Content.License",
+      "addressable": true
+    },
+    {
+      "path": "privacy.md",
+      "assetType": "Microsoft.VisualStudio.Services.Content.Privacy",
+      "addressable": true
+    }
+  ],
+  "scopes": [
+    "vso.work"
+  ],
+  "license": "LICENSE",
+  "links": {
+    "repository": {
+      "uri": "https://github.com/srupke/Fulcrum.ADO.WorkItemStateProgression"
+    },
+    "issues": {
+      "uri": "https://github.com/srupke/Fulcrum.ADO.WorkItemStateProgression/issues"
+    },
+    "support": {
+      "uri": "https://github.com/srupke/Fulcrum.ADO.WorkItemStateProgression/issues"
+    },
+    "license": {
+      "uri": "https://github.com/srupke/Fulcrum.ADO.WorkItemStateProgression/blob/main/LICENSE"
+    },
+    "privacypolicy": {
+      "uri": "https://github.com/srupke/Fulcrum.ADO.WorkItemStateProgression/blob/main/privacy.md"
+    }
+  }
+}
