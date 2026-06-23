@@ -2,7 +2,7 @@
   "manifestVersion": 1,
   "id": "fulcrum-work-item-state-progression",
   "publisher": "ScottRupke",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "name": "Fulcrum Work Item State Progression",
   "description": "Analyze work item bottlenecks by visualizing time spent in each state per sprint and team.",
   "public": true,
